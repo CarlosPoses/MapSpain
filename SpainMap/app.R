@@ -73,9 +73,9 @@ ui <- fluidPage(
     ),  # Add a closing parenthesis for the column function
     
     column(3,
-           wellPanel("Visited Concellos",
+           wellPanel("Visited municipalities",
                         multiInput(inputId = "concellos",
-                                   label = "Concellos",
+                                   label = "Municipalities",
                                    choices = municipios$name,
                                    selected = lugares$NAMEUNIT)
     )
